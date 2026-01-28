@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import connectDB from '../../../../utils/mongoose';
 import Registration from '../../../../models/Registration';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../../auth/[...nextauth]/route.js';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
 
 export async function GET(req) {
   await connectDB();
@@ -45,4 +45,5 @@ export async function GET(req) {
     return NextResponse.json({ error: 'Failed to fetch invitations' }, { status: 500 });
   }
 }
+
 
