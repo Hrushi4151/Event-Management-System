@@ -1,0 +1,114 @@
+[
+  {
+    "_comment": "NOTE: Replace 'event' with Event ObjectId and 'leader.userId' with User ObjectId before insertion",
+    "event": "REPLACE_WITH_EVENT_OBJECTID",
+    "teamName": "Code Warriors",
+    "leader": {
+      "userId": "REPLACE_WITH_USER_OBJECTID",
+      "name": "Michael Chen",
+      "email": "michael.chen@example.com"
+    },
+    "teamMembers": [
+      {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "profile": "Full Stack Developer",
+        "attended": true,
+        "qrCode": "EVENT_WEBDEV_USER_MICHAEL_MEMBER_0_1734567890123_abc123"
+      },
+      {
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "profile": "Frontend Developer",
+        "attended": true,
+        "qrCode": "EVENT_WEBDEV_USER_MICHAEL_MEMBER_1_1734567890124_def456"
+      }
+    ],
+    "status": "Accepted",
+    "checkedIn": true,
+    "qrCode": "EVENT_WEBDEV_USER_MICHAEL_LEADER_1734567890123"
+  },
+  {
+    "event": "REPLACE_WITH_EVENT_OBJECTID",
+    "teamName": "Dev Masters",
+    "leader": {
+      "userId": "REPLACE_WITH_USER_OBJECTID",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com"
+    },
+    "teamMembers": [
+      {
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "profile": "Backend Developer",
+        "attended": true,
+        "qrCode": "EVENT_WEBDEV_USER_EMILY_MEMBER_0_1734567890125_ghi789"
+      }
+    ],
+    "status": "Accepted",
+    "checkedIn": true,
+    "qrCode": "EVENT_WEBDEV_USER_EMILY_LEADER_1734567890124"
+  },
+  {
+    "event": "REPLACE_WITH_EVENT_OBJECTID",
+    "teamName": "Tech Innovators",
+    "leader": {
+      "userId": "REPLACE_WITH_USER_OBJECTID",
+      "name": "David Wilson",
+      "email": "david.wilson@example.com"
+    },
+    "teamMembers": [
+      {
+        "name": "Diana Prince",
+        "email": "diana.prince@example.com",
+        "profile": "UI/UX Designer",
+        "attended": false,
+        "qrCode": "EVENT_WEBDEV_USER_DAVID_MEMBER_0_1734567890126_jkl012"
+      },
+      {
+        "name": "Evan Wright",
+        "email": "evan.wright@example.com",
+        "profile": "DevOps Engineer",
+        "attended": true,
+        "qrCode": "EVENT_WEBDEV_USER_DAVID_MEMBER_1_1734567890127_mno345"
+      }
+    ],
+    "status": "Accepted",
+    "checkedIn": true,
+    "qrCode": "EVENT_WEBDEV_USER_DAVID_LEADER_1734567890125"
+  },
+  {
+    "event": "REPLACE_WITH_EVENT_OBJECTID",
+    "teamName": "Future Coders",
+    "leader": {
+      "userId": "REPLACE_WITH_USER_OBJECTID",
+      "name": "Michael Chen",
+      "email": "michael.chen@example.com"
+    },
+    "teamMembers": [
+      {
+        "name": "Frank Miller",
+        "email": "frank.miller@example.com",
+        "profile": "Mobile Developer",
+        "attended": false,
+        "qrCode": "EVENT_TECHSUMMIT_USER_MICHAEL_MEMBER_0_1734567890128_pqr678"
+      }
+    ],
+    "status": "Pending",
+    "checkedIn": false,
+    "qrCode": "EVENT_TECHSUMMIT_USER_MICHAEL_LEADER_1734567890126"
+  },
+  {
+    "event": "REPLACE_WITH_EVENT_OBJECTID",
+    "teamName": "Individual",
+    "leader": {
+      "userId": "REPLACE_WITH_USER_OBJECTID",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com"
+    },
+    "teamMembers": [],
+    "status": "Accepted",
+    "checkedIn": false,
+    "qrCode": "EVENT_HACKATHON_USER_EMILY_LEADER_1734567890127"
+  }
+]

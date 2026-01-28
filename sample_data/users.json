@@ -1,0 +1,52 @@
+[
+  {
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "phone": "+1234567890",
+    "password": "$2a$10$rOzJqKqKqKqKqKqKqKqKqOqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKq",
+    "role": "organizer",
+    "organization": "Tech Events Inc.",
+    "bio": "Experienced event organizer with 10+ years in tech conferences",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=JohnSmith"
+  },
+  {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@example.com",
+    "phone": "+1234567891",
+    "password": "$2a$10$rOzJqKqKqKqKqKqKqKqKqOqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKq",
+    "role": "organizer",
+    "organization": "Global Event Management",
+    "bio": "Passionate about creating memorable experiences",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=SarahJohnson"
+  },
+  {
+    "name": "Michael Chen",
+    "email": "michael.chen@example.com",
+    "phone": "+1234567892",
+    "password": "$2a$10$rOzJqKqKqKqKqKqKqKqKqOqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKq",
+    "role": "attendee",
+    "college": "State University",
+    "bio": "Computer Science student passionate about hackathons",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=MichaelChen"
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emily.davis@example.com",
+    "phone": "+1234567893",
+    "password": "$2a$10$rOzJqKqKqKqKqKqKqKqKqOqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKq",
+    "role": "attendee",
+    "college": "Tech Institute",
+    "bio": "Software developer and tech enthusiast",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=EmilyDavis"
+  },
+  {
+    "name": "David Wilson",
+    "email": "david.wilson@example.com",
+    "phone": "+1234567894",
+    "password": "$2a$10$rOzJqKqKqKqKqKqKqKqKqOqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKqKq",
+    "role": "attendee",
+    "college": "City College",
+    "bio": "Aspiring entrepreneur and startup enthusiast",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=DavidWilson"
+  }
+]
