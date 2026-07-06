@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Tech Innovation Summit 2024",
+    "description": "Join us for a day of cutting-edge technology presentations, networking opportunities, and hands-on workshops. Explore the latest trends in AI, blockchain, and cloud computing.",
+    "location": "Convention Center, Downtown",
+    "mode": "Offline",
+    "status": "Upcoming",
+    "startDate": "2024-12-20",
+    "endDate": "2024-12-20",
+    "bannerImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+    "organizer": "REPLACE_WITH_ORGANIZER_USER_OBJECTID",
+    "capacity": 5,
+    "winners": [],
+    "eventPhotos": [],
+    "highlights": "",
+    "summary": "",
+    "testimonials": [],
+    "statistics": {}
+  },
+  {
+    "title": "Hackathon Challenge 2024",
+    "description": "48-hour coding competition for developers. Build innovative solutions, compete for prizes, and network with industry leaders. Open to all skill levels.",
+    "location": "Tech Hub Campus",
+    "mode": "Offline",
+    "status": "Active",
+    "startDate": "2024-12-15",
+    "endDate": "2024-12-17",
+    "bannerImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800",
+    "organizer": "REPLACE_WITH_ORGANIZER_USER_OBJECTID",
+    "capacity": 10,
+    "winners": [],
+    "eventPhotos": [],
+    "highlights": "",
+    "summary": "",
+    "testimonials": [],
+    "statistics": {}
+  },
+  {
+    "title": "Web Development Workshop",
+    "description": "Learn modern web development techniques including React, Next.js, and TypeScript. Perfect for beginners and intermediate developers looking to level up their skills.",
+    "location": "Online",
+    "mode": "Online",
+    "status": "Completed",
+    "startDate": "2024-11-10",
+    "endDate": "2024-11-12",
+    "bannerImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
+    "organizer": "REPLACE_WITH_ORGANIZER_USER_OBJECTID",
+    "capacity": 8,
+    "winners": [
+      {
+        "position": "1st Place",
+        "teamName": "Code Warriors",
+        "leaderName": "Michael Chen",
+        "leaderEmail": "michael.chen@example.com",
+        "prize": "$1000 Cash Prize + Trophy"
+      },
+      {
+        "position": "2nd Place",
+        "teamName": "Dev Masters",
+        "leaderName": "Emily Davis",
+        "leaderEmail": "emily.davis@example.com",
+        "prize": "$500 Cash Prize"
+      },
+      {
+        "position": "3rd Place",
+        "teamName": "Tech Innovators",
+        "leaderName": "David Wilson",
+        "leaderEmail": "david.wilson@example.com",
+        "prize": "$250 Cash Prize"
+      }
+    ],
+    "eventPhotos": [
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800",
+      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800"
+    ],
+    "highlights": "Over 150 participants, 48 hours of coding, 25 innovative projects submitted, and amazing networking opportunities.",
+    "summary": "The Web Development Workshop was a tremendous success! We had participants from various backgrounds coming together to learn and build. The event featured hands-on sessions, expert talks, and a final project showcase. The energy and creativity displayed by all participants was truly inspiring.",
+    "testimonials": [
+      {
+        "name": "Michael Chen",
+        "role": "Participant",
+        "text": "This was an incredible experience! I learned so much and met amazing people. The workshops were well-structured and the mentors were very helpful.",
+        "rating": 5
+      },
+      {
+        "name": "Emily Davis",
+        "role": "Participant",
+        "text": "Best workshop I've attended this year. The hands-on approach really helped me understand the concepts better.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah Johnson",
+        "role": "Organizer",
+        "text": "Seeing all the participants grow and create amazing projects was truly rewarding. Looking forward to the next one!",
+        "rating": 5
+      }
+    ],
+    "statistics": {
+      "totalParticipants": 150,
+      "totalTeams": 25,
+      "totalAttendees": 142,
+      "averageRating": 4.8
+    }
+  },
+  {
+    "title": "AI & Machine Learning Conference",
+    "description": "Explore the future of artificial intelligence and machine learning. Featuring keynote speakers from leading tech companies, technical sessions, and networking events.",
+    "location": "Grand Hotel Conference Hall",
+    "mode": "Offline",
+    "status": "Upcoming",
+    "startDate": "2025-01-15",
+    "endDate": "2025-01-17",
+    "bannerImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800",
+    "organizer": "REPLACE_WITH_ORGANIZER_USER_OBJECTID",
+    "capacity": 15,
+    "winners": [],
+    "eventPhotos": [],
+    "highlights": "",
+    "summary": "",
+    "testimonials": [],
+    "statistics": {}
+  },
+  {
+    "title": "Startup Pitch Competition",
+    "description": "Showcase your startup idea to a panel of investors and industry experts. Win funding, mentorship opportunities, and valuable feedback. Open to early-stage startups.",
+    "location": "Innovation Center",
+    "mode": "Offline",
+    "status": "Cancelled",
+    "startDate": "2024-11-25",
+    "endDate": "2024-11-25",
+    "bannerImage": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+    "organizer": "REPLACE_WITH_ORGANIZER_USER_OBJECTID",
+    "capacity": 6,
+    "winners": [],
+    "eventPhotos": [],
+    "highlights": "",
+    "summary": "",
+    "testimonials": [],
+    "statistics": {}
+  }
+]
