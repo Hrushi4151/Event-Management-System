@@ -32,7 +32,7 @@ const tabs = [
   { label: 'Attendees', color: 'bg-orange-50 text-orange-700 border-orange-200', icon: <HiUserGroup className="text-orange-500" /> },
 ];
 
-export default function page() {
+export default function OrganizerEventDetails() {
   const { id } = useParams();
   const router = useRouter();
   const [activeTab, setActiveTab] = useState('Total');

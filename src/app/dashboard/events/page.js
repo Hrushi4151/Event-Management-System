@@ -5,7 +5,7 @@ import Oeventspage from '../components/organizer/Oeventspage'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const EventsPage = () => {
   const { data: session, status } = useSession();
   const router = useRouter();
   
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default EventsPage

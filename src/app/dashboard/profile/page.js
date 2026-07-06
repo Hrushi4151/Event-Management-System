@@ -5,7 +5,7 @@ import Aprofile from '../components/attendee/Aprofile'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const ProfilePage = () => {
   const { data: session, status } = useSession();
   const router = useRouter();
   
@@ -38,4 +38,4 @@ const page = () => {
   )
 }
 
-export default page
+export default ProfilePage

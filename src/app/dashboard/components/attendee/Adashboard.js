@@ -14,6 +14,7 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useEffect, useState } from 'react';
 import { useSession } from 'next-auth/react';
+import Link from 'next/link';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, ArcElement, Tooltip, Legend);
 
@@ -365,15 +366,15 @@ export default function AttendeeDashboard() {
           <div className="bg-white rounded-2xl p-6 border border-[#E5E7EB] animate-fadeIn">
             <h2 className="text-xl font-bold text-[#0F172A] mb-6">⚡ Quick Actions</h2>
             <div className="space-y-3">
-              <a 
+              <Link 
                 href="/dashboard/events" 
                 className="flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-blue-600 to-blue-700 
                          text-white rounded-xl hover:shadow-lg transition-all duration-300 font-medium"
               >
                 <FaCalendarCheck className="text-xl" />
                 Browse Events
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="/dashboard/tickets" 
                 className="flex items-center gap-3 px-6 py-4 bg-white border-2 border-[#E5E7EB] 
                          text-[#0F172A] rounded-xl hover:border-blue-600 hover:text-blue-600 
@@ -381,8 +382,8 @@ export default function AttendeeDashboard() {
               >
                 <FaTicketAlt className="text-xl" />
                 My Tickets
-              </a>
-              <a 
+              </Link>
+              <Link 
                 href="/dashboard/profile" 
                 className="flex items-center gap-3 px-6 py-4 bg-white border-2 border-[#E5E7EB] 
                          text-[#0F172A] rounded-xl hover:border-blue-600 hover:text-blue-600 
@@ -390,7 +391,7 @@ export default function AttendeeDashboard() {
               >
                 <FaCheckCircle className="text-xl" />
                 View Profile
-              </a>
+              </Link>
             </div>
 
             {stats.pendingRegistrations > 0 && (

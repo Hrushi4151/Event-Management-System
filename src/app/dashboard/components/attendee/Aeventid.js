@@ -785,7 +785,7 @@ export default function EventDetailsPage({params}) {
                           />
                         ))}
                       </div>
-                      <p className="text-[#64748B] italic mb-3">"{testimonial.text}"</p>
+                      <p className="text-[#64748B] italic mb-3">&ldquo;{testimonial.text}&rdquo;</p>
                       <div className="text-sm">
                         <div className="font-semibold text-[#0F172A]">{testimonial.name}</div>
                         <div className="text-[#64748B]">{testimonial.role}</div>
@@ -1245,7 +1245,7 @@ export default function EventDetailsPage({params}) {
                   includeMargin={true}
                 />
                 <p className="text-xs text-gray-600 mt-4 text-center">
-                  Save this QR code - you'll need it at the event entrance
+                  Save this QR code - you&apos;ll need it at the event entrance
                 </p>
               </div>
               

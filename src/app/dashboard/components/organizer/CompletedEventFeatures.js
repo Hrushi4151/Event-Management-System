@@ -422,7 +422,7 @@ export default function CompletedEventFeatures({ eventId, eventData, onUpdate, a
                     ))}
                   </div>
                 </div>
-                <p className="text-gray-300 text-sm mb-3">"{testimonial.text}"</p>
+                <p className="text-gray-300 text-sm mb-3">&ldquo;{testimonial.text}&rdquo;</p>
                 <div className="flex gap-2">
                   <button
                     onClick={() => handleEditTestimonial(index)}

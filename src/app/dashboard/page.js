@@ -5,7 +5,7 @@ import Odashboard from './components/organizer/Odashboard'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const DashboardPage = () => {
   const { data: session, status } = useSession();
   const router = useRouter();
   const [checkingOnboarding, setCheckingOnboarding] = useState(true);
@@ -69,4 +69,4 @@ const page = () => {
   )
 }
 
-export default page
+export default DashboardPage
