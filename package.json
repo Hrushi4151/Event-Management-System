@@ -23,7 +23,7 @@
     "leaflet": "^1.9.4",
     "leaflet-routing-machine": "^3.2.12",
     "mongoose": "^8.15.2",
-    "next": "15.3.3",
+    "next": "^16.2.10",
     "next-auth": "^4.24.11",
     "notificationapi-node-server-sdk": "^2.8.0",
     "qrcode.react": "^4.2.0",
